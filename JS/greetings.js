@@ -21,7 +21,7 @@ function onLoginSubmit(event) { // 사용자 입력데이터를 받기 위해 ev
 
 // 저장 데이터 활용해서 사용자에게 출력하기
 function paintGreetings(abc){ 
-    greeting.innerText = `Hello  ${abc}`; // 저장내용 기록 
+    greeting.innerText = `안녕하세요  ${abc}님!`; // 저장내용 기록 
     greeting.classList.remove(HIDDEN_CLASSNAME); // greeting 히든 풀기
 }
 
